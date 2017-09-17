@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/tgaimage.h
+fstream
+-
+
+D:/projekty/Dr_Render/src/tgaimage.cpp
+iostream
+-
+fstream
+-
+string.h
+-
+time.h
+-
+math.h
+-
+tgaimage.h
+D:/projekty/Dr_Render/src/tgaimage.h
+

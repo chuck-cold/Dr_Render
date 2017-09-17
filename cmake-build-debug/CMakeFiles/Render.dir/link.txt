@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libRender.a  CMakeFiles/Render.dir/src/Render.cpp.obj
+C:\MinGW\bin\ranlib.exe libRender.a

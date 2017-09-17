@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libModel.a  CMakeFiles/Model.dir/src/Model.cpp.obj
+C:\MinGW\bin\ranlib.exe libModel.a

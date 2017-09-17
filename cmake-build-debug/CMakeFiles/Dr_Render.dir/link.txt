@@ -1,0 +1,3 @@
+"D:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Dr_Render.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Dr_Render.dir/objects.a @CMakeFiles\Dr_Render.dir\objects1.rsp
+C:\MinGW\bin\g++.exe   -std=c++14 -Wall -Wextra -pedantic -g   -Wl,--whole-archive CMakeFiles\Dr_Render.dir/objects.a -Wl,--no-whole-archive  -o Dr_Render.exe -Wl,--out-implib,libDr_Render.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Dr_Render.dir\linklibs.rsp

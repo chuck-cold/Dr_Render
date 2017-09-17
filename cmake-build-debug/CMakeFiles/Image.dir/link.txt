@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libImage.a  CMakeFiles/Image.dir/src/Image.cpp.obj
+C:\MinGW\bin\ranlib.exe libImage.a

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Render.h
+
+D:/projekty/Dr_Render/src/Render.cpp
+Render.h
+D:/projekty/Dr_Render/src/Render.h
+

@@ -1,0 +1,7 @@
+D:/projekty/Dr_Render/cmake-build-debug/CMakeFiles/tgaimage.dir
+D:/projekty/Dr_Render/cmake-build-debug/CMakeFiles/Dr_Render.dir
+D:/projekty/Dr_Render/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/projekty/Dr_Render/cmake-build-debug/CMakeFiles/Render.dir
+D:/projekty/Dr_Render/cmake-build-debug/CMakeFiles/Image.dir
+D:/projekty/Dr_Render/cmake-build-debug/CMakeFiles/Model.dir
+D:/projekty/Dr_Render/cmake-build-debug/CMakeFiles/edit_cache.dir
