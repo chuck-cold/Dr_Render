@@ -263,6 +263,15 @@ bool TGAImage::set(int x, int y, TGAColor c) {
 	return true;
 }
 
+int TGAImage::set(unsigned index, TGAColor c) {
+	if (!data || index < 0|| index >= width*height) {
+		return 0;
+	}
+	memcpy(data + (index)*bytespp, c.raw, bytespp);
+	return 1;
+}
+
+
 int TGAImage::get_bytespp() {
 	return bytespp;
 }

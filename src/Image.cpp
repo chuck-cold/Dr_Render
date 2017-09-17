@@ -1,15 +1,26 @@
 //
 // Created by Chladek_K on 16.09.2017.
 //
-#include <iostream>
 #include "Image.h"
+#include <algorithm>
 
-Image::Image(unsigned w, unsigned h, Channels c)
-        : width(w), height(h), frameBuff(width * height, std::vector<int>(c,0))
-{
-    for(int i = 0; i < frameBuff.size(); i++){
-        for (int j = 0; j < c; j++){
-            std::cout<<frameBuff.at(i).at(j)<<std::endl;
-        }
-    }
-};
+int Image<class T>::save(std::string filename, Format f) {
+	if (filename.empty()) return 0;
+	switch (f) {
+	case TGA:
+		saveTGA(filename);
+		break;
+	default:
+		std::cout << "Wrong image format" << std::endl;
+		return 0;
+	}
+	return 1;
+
+}
+
+int Image<class T>::saveTGA(std::string filename) {
+	TGAImage img(width, height, std::min(channels, Channels::RGBA));
+	for (unsigned i = 0; i < width * height; i++) {
+		TGAColor();
+	}
+}
